@@ -1,0 +1,5 @@
+#Для того ,чтобы на каждый вопрос был дан свой ответ
+class Question:
+    def __init__(self, vopros , otvet): # __init__ вызывает класс
+        self.vopros = vopros #self это способ описания любого объекта, буквально
+        self.otvet = otvet
